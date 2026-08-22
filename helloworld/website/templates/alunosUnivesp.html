@@ -1,0 +1,11 @@
+<table>
+  <tbody>
+    {% for aluno in alunos %}
+      <tr>
+        <td>{{ aluno.nome }}</td>
+        <td>{{ aluno.sobrenome }}</td>
+        <td>{{ aluno.matricula }}</td>
+      </tr>
+    {% endfor %}
+  </tbody>
+</table>
